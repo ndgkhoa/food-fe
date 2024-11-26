@@ -122,7 +122,7 @@ export const food_list = [
         image: food_1,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'A Mediterranean-inspired salad with tomatoes, cucumbers, olives, feta cheese, and olive oil.',
         category: 'Salad',
     },
     {
@@ -131,7 +131,7 @@ export const food_list = [
         image: food_2,
         price: 18,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'A refreshing salad of seasonal vegetables, lightly dressed with citrus vinaigrette.',
         category: 'Salad',
     },
     {
@@ -140,7 +140,7 @@ export const food_list = [
         image: food_3,
         price: 16,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'A mix of tender clover sprouts, greens, and lemon dressing for a zesty flavor.',
         category: 'Salad',
     },
     {
@@ -149,7 +149,7 @@ export const food_list = [
         image: food_4,
         price: 24,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Grilled chicken breast with mixed greens, nuts, and a light dressing for a protein-packed meal.',
         category: 'Salad',
     },
     {
@@ -158,7 +158,7 @@ export const food_list = [
         image: food_5,
         price: 14,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Lasagna rolled with ricotta cheese, marinara, and herbs, baked to perfection.',
         category: 'Rolls',
     },
     {
@@ -167,7 +167,7 @@ export const food_list = [
         image: food_6,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Spicy peri peri sauce with grilled chicken or vegetables, wrapped in a roll.',
         category: 'Rolls',
     },
     {
@@ -176,7 +176,7 @@ export const food_list = [
         image: food_7,
         price: 20,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Warm rolls filled with juicy chicken and fresh veggies, perfect for a quick meal.',
         category: 'Rolls',
     },
     {
@@ -185,7 +185,7 @@ export const food_list = [
         image: food_8,
         price: 15,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Vegetarian rolls filled with fresh vegetables, lightly seasoned for a healthy snack.',
         category: 'Rolls',
     },
     {
@@ -194,7 +194,7 @@ export const food_list = [
         image: food_9,
         price: 14,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Creamy ice cream with chocolate swirls for a rich and indulgent treat.',
         category: 'Deserts',
     },
     {
@@ -203,7 +203,7 @@ export const food_list = [
         image: food_10,
         price: 22,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Made from fresh fruits, this ice cream offers a refreshing, natural sweetness.',
         category: 'Deserts',
     },
     {
@@ -212,7 +212,7 @@ export const food_list = [
         image: food_11,
         price: 10,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Ice cream served in a jar with layers of creamy goodness and fun toppings.',
         category: 'Deserts',
     },
     {
@@ -221,7 +221,7 @@ export const food_list = [
         image: food_12,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Classic vanilla ice cream made with real vanilla beans for a smooth, creamy flavor.',
         category: 'Deserts',
     },
     {
@@ -230,7 +230,7 @@ export const food_list = [
         image: food_13,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Grilled chicken breast with lettuce, sauce, and soft bread for a savory sandwich.',
         category: 'Sandwich',
     },
     {
@@ -239,7 +239,7 @@ export const food_list = [
         image: food_14,
         price: 18,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Plant-based ingredients like avocado and hummus, served in a hearty sandwich.',
         category: 'Sandwich',
     },
     {
@@ -248,7 +248,7 @@ export const food_list = [
         image: food_15,
         price: 16,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Melted cheese and savory fillings grilled to perfection for a satisfying meal.',
         category: 'Sandwich',
     },
     {
@@ -257,7 +257,7 @@ export const food_list = [
         image: food_16,
         price: 24,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Fresh bread filled with cheese, veggies, or meats for a simple, comforting meal.',
         category: 'Sandwich',
     },
     {
@@ -266,7 +266,7 @@ export const food_list = [
         image: food_17,
         price: 14,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Moist cupcakes topped with frosting and sprinkles, perfect for a sweet treat.',
         category: 'Cake',
     },
     {
@@ -275,7 +275,7 @@ export const food_list = [
         image: food_18,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'A soft, vegan cake made with plant-based ingredients and a light texture.',
         category: 'Cake',
     },
     {
@@ -284,7 +284,7 @@ export const food_list = [
         image: food_19,
         price: 20,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'A rich butterscotch-flavored cake with a creamy glaze, perfect for dessert lovers.',
         category: 'Cake',
     },
     {
@@ -293,16 +293,16 @@ export const food_list = [
         image: food_20,
         price: 15,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Soft cake slices topped with creamy icing, offering a simple but delightful dessert.',
         category: 'Cake',
     },
     {
         _id: '21',
-        name: 'Garlic Mushroom ',
+        name: 'Garlic Mushroom',
         image: food_21,
         price: 14,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Fresh mushrooms sautéed in garlic butter for a savory and rich flavor.',
         category: 'Pure Veg',
     },
     {
@@ -311,16 +311,16 @@ export const food_list = [
         image: food_22,
         price: 22,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Crispy fried cauliflower florets served with a tangy dipping sauce.',
         category: 'Pure Veg',
     },
     {
         _id: '23',
-        name: 'Mix Veg Pulao',
+        name: 'Mix Veg Pula',
         image: food_23,
         price: 10,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'A flavorful rice dish cooked with mixed vegetables and spices.',
         category: 'Pure Veg',
     },
     {
@@ -329,7 +329,7 @@ export const food_list = [
         image: food_24,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'A healthy rice dish with zucchini, offering a light, flavorful meal.',
         category: 'Pure Veg',
     },
     {
@@ -338,7 +338,7 @@ export const food_list = [
         image: food_25,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Pasta in a creamy cheese sauce, perfect for cheese lovers.',
         category: 'Pasta',
     },
     {
@@ -347,7 +347,7 @@ export const food_list = [
         image: food_26,
         price: 18,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Classic pasta with a fresh, tangy tomato sauce for a light meal.',
         category: 'Pasta',
     },
     {
@@ -356,7 +356,7 @@ export const food_list = [
         image: food_27,
         price: 16,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Smooth, creamy pasta with a rich sauce for a comforting meal.',
         category: 'Pasta',
     },
     {
@@ -365,16 +365,16 @@ export const food_list = [
         image: food_28,
         price: 24,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Pasta served with tender chicken and a savory sauce for a filling meal.',
         category: 'Pasta',
     },
     {
         _id: '29',
-        name: 'Buttter Noodles',
+        name: 'Butter Noodles',
         image: food_29,
         price: 14,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Noodles sautéed in rich butter, creating a simple yet flavorful dish.',
         category: 'Noodles',
     },
     {
@@ -383,25 +383,25 @@ export const food_list = [
         image: food_30,
         price: 12,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Stir-fried noodles with fresh vegetables, light and healthy.',
         category: 'Noodles',
     },
     {
         _id: '31',
-        name: 'Somen Noodles',
+        name: 'Chicken Noodles',
         image: food_31,
-        price: 20,
+        price: 16,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Noodles stir-fried with chicken, vegetables, and savory seasonings.',
         category: 'Noodles',
     },
     {
         _id: '32',
-        name: 'Cooked Noodles',
+        name: 'Chilly Noodles',
         image: food_32,
-        price: 15,
+        price: 20,
         description:
-            'Food provides essential nutrients for overall health and well-being',
+            'Spicy stir-fried noodles with chili peppers for a bold, flavorful dish.',
         category: 'Noodles',
     },
 ]

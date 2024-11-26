@@ -6,8 +6,7 @@ import axios from 'axios'
 import { toast } from 'react-toastify'
 
 const LoginPopup = ({ setShowLogin }) => {
-    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
-    const { setToken } = useContext(StoreContext)
+    const { API_BASE_URL, setToken } = useContext(StoreContext)
     const [currState, setCurrState] = useState('Login')
     const [data, setData] = useState({
         name: '',
@@ -30,15 +29,23 @@ const LoginPopup = ({ setShowLogin }) => {
             newUrl += '/api/user/register'
         }
 
-        const response = await axios.post(newUrl, data)
+        try {
+            const response = await axios.post(newUrl, data)
 
-        if (response.data.success) {
-            setToken(response.data.token)
-            localStorage.setItem('token', response.data.token)
-            setShowLogin(false)
-            toast.success(response.data.message)
-        } else {
-            toast.error(response.data.message)
+            if (response.data.success) {
+                setToken(response.data.token)
+                localStorage.setItem('token', response.data.token)
+                setShowLogin(false)
+                toast.success(response.data.message)
+            } else {
+                toast.error(response.data.message)
+            }
+        } catch (error) {
+            if (error.response && error.response.data) {
+                toast.error(error.response.data.message || 'An error occurred')
+            } else {
+                toast.error('Something went wrong, please try again.')
+            }
         }
     }
 
